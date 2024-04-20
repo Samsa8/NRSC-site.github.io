@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.internship-image img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.title, .section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description, .section p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.eligibility, .duration {
+  margin-bottom: 20px;
+}
+
+.apply-button, .map-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.map-button {
+  background-color: #008CBA;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  color: #333;
+}
+
+/* Additional styles for social media icons */
+.social-media img {
+  width: 32px; /* Set the width of the social icons */
+  height: 32px; /* Set the height of the social icons */
+  vertical-align: middle;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 8px;
+}
+
+.social-media a:last-child {
+  margin-right: 0;
+}
+
+.social-media a:not(:last-child)::after {
+  content: '|';
+  margin-left: 8px;
+  color: #333;
+}
+
+/* Updated styles for the opening hours section */
+.opening-hours {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.opening-hours h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.hours-list .day-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.hours-list .day-row.today {
+  font-weight: bold;
+  color: red;
+}
+
+.hours-list .day {
+  flex-basis: 40%;
+}
+
+.hours-list .hours {
+  flex-basis: 60%;
+  text-align: right;
+}
+
+/* Other styles... */
+
+.feature-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space between the feature items */
+}
+
+.feature-item {
+  text-align: center; /* Center-align the text underneath the image */
+}
+
+.feature-image {
+  width: 150px; /* Set a fixed width */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Ensure the image takes up the full block */
+  margin-bottom: 10px; /* Space between the image and the caption */
+}
+
+/* Other styles... */
+
